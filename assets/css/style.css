@@ -1,0 +1,167 @@
+html,
+body {
+    background-color: black;
+    color: #ffffff;
+}
+
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+}
+
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* Animations Begin */
+
+
+@keyframes move {
+    0% {
+        background-position: 45% 45%;
+    }
+
+    50% {
+        background-position: 55% 55%;
+    }
+
+    100% {
+        background-position: 45% 45%;
+    }
+}
+
+/* Animations End*/
+
+.fullscreen {
+    height: 100vh;
+}
+
+#title {
+    background-image: url(../img/titlebg.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    animation: move 10s infinite;
+    background-size: cover;
+}
+
+#title #title_text {
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: max-content;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: #ffffff solid 2px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#title #title_text h1 {
+    font-size: 10vh;
+    padding: 10px;
+    border-bottom: #eaecef solid 1px;
+}
+
+#title #title_text h2 {
+    padding: 10px;
+    font-size: 5vh;
+}
+
+.center {
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.grade_title h1 {
+    font-size: 10vh;
+    line-height: 2;
+}
+
+.grade_title h2 {
+    font-size: 5vh;
+}
+
+.img1 {
+    background-image: url("../img/grade1bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.grade_text {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 23vh;
+    padding: 2vh 0;
+    line-height: 1.5;
+    font-size: 1.25em;
+}
+
+.img2 {
+    background-image: url("../img/grade2bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.img3 {
+    background-image: url("../img/grade3bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.img4 {
+    background-image: url("../img/grade4bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.img5 {
+    background-image: url("../img/grade5bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img6 {
+    background-image: url("../img/grade6bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
